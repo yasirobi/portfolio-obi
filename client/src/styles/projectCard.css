@@ -1,0 +1,224 @@
+.project-done h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  opacity: .65;
+  text-align: center;
+}
+.project-done{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.done-project-btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.done-project-btn{
+  color: #fff;
+}
+.underline{
+  border-bottom: 4px solid #24b273;
+  width: 20%;
+  margin: auto;
+}
+.btn{
+  width: 185px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  }
+  .done-project-btn{
+    color: #fff;
+  border: 3px solid #24b273;
+  background-image: -webkit-linear-gradient(30deg, #24b273 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #24b273 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  text-decoration: none !important;
+  }
+  
+  .done-project-btn:hover{
+    background-position: 100%;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+/*project card style*/
+.card-title h2{
+  color: #24b273!important;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+}
+.card-title p{
+  color: #fff;
+  opacity: .65;
+  text-transform: capitalize;
+  text-align: justify;
+  word-break: keep-all;
+}
+ .icon-link{
+   color: #24b273;
+   text-decoration: none;
+ }
+ .icon-link:hover{
+  color: #24b273;
+}
+  .card1 {
+    background-color: #212428 !important; 
+    width: 100% !important;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 12px 2px rgba(0,0,0, 0.2) !important; 
+ }
+ 
+ .btn-4 {
+  background-color: #212428; 
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  box-shadow: 0 2px 5px 2px rgba(0,0,0, 0.6) !important;
+  overflow: hidden;
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0;
+  border: none;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+  transition: all .5s ease-in-out !important;
+}
+.btn-4:focus {
+  box-shadow: none;
+}
+.btn-4:hover {
+  background: #24b273;
+  color: #fff;
+  transition: all .5s ease-in-out !important;
+}
+.btn-4.btn--with-icon {
+  padding-right: 20px;
+}
+.btn-4.btn--with-icon i {
+  padding: 0px 30px 0px 15px;
+  margin-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: bottom;
+  color: white;
+  background: #24b273;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  transition: all .5s ease-in-out !important;
+}
+.btn-4.btn--only-icon {
+  width: 50px;
+}
+.blog-card__info {
+ margin-top: 30px;
+ 
+}
+  .card-header1 {
+    height: 50%;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+ }
+  .header-img {
+    height: 100%;
+    width: 100%;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+    transition: all ease-in-out 0.4s;
+ }
+ .header-img img{
+   width: 100%;
+   height: 230px;
+ }
+  .card1:hover .header-img {
+    transform: scale(1.25) ;
+    height: 100%;
+ }
+ .card-title {
+  
+  line-height: 18px;
+  padding: 15px;
+}
+.card-title p{
+  font-size: 14px;
+  text-align: center;
+}
+  
+  .card-title h2 { 
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 7px;
+ }
+  
+ 
+
+@media (min-width: 320px) and (max-width: 767px) {
+     .card{
+       margin-top: 15px;
+     }
+     .project-done h1{
+       font-size: 25px;
+     }
+     .underline{
+       width: 120px;
+     }
+     .btn-4{
+       font-size: 12px !important;
+     }
+
+     .btn-4.btn--with-icon {
+      padding-right: 20px;
+    }
+    .btn-4.btn--with-icon i {
+      padding: 0px 30px 0px 10px;
+      margin-right: 6px;
+      height: 100%;
+      line-height: 50px;
+     
+    }
+    
+}
+@media (min-width: 280px) and (max-width: 319px) {
+  .card{
+    margin-top: 15px;
+  }
+}
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+     
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  
+} 

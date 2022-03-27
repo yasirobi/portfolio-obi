@@ -1,0 +1,21 @@
+#single-hero{
+    height: 75vh;
+    display: flex;justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+  }
+
+  .single-hero{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+   
+    
+  }
+
+  .single-hero-image img{ 
+     max-height: 250px;
+     width: 100%;
+     margin-top: -20px; 
+  }

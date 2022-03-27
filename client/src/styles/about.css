@@ -1,0 +1,138 @@
+
+
+.about{
+    background-image:linear-gradient(rgba(36, 178, 115,0.5), rgba(36, 178, 115,0.5)), url('../image/leaves.png');
+    height: auto;
+    object-fit: cover !important;
+    margin-top: 80px;
+    padding: 50px;
+   
+}
+
+.about-text h2{
+    color: #fff ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.underline-about-text{
+    border-bottom: 3px solid #fff;
+    width: 20%;
+}
+.about-desc{
+    margin-top: 13px;
+}
+.about-desc p{
+    color: #fff;
+    opacity: .65;
+
+}
+
+.about-btn{
+    width: 170px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    }
+    .about-btn1{
+    color: #fff;
+    border: 3px solid #24b273;
+    background-image: -webkit-linear-gradient(30deg, #24b273 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #24b273 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    text-decoration: none !important;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.20);
+    }
+    
+    .about-btn1:hover{
+      background-position: 100%;
+      color: #fff;
+      background-color: transparent !important;
+    }
+
+    .about-image img{
+        height: 100%;
+        width: 100%;
+    }
+
+    @media(min-width:280px) and (max-width:319px){
+      .about-desc p{
+          font-size: 12px;
+          text-align: justify;
+      }
+      .about h2{
+        text-align: center;
+        font-size: 23px;
+      }
+    }
+
+   
+
+
+    @media(min-width:320px) and (max-width:480px){
+        .about-image img{
+            height: 100%;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .about{
+            padding: 20px;
+            padding-bottom: 20px;
+        }
+        .about h2{
+            text-align: center;
+            font-size: 23px;
+        }
+        .underline-about-text{
+            margin: auto;
+            width: 100px;
+        }
+        .about-desc{
+            width: 100%; 
+            
+        }
+        .about-desc p{
+            font-size: 14px;
+        }
+        .about-btn{
+            width: 130px;
+          padding-top: 8px;
+           padding-bottom: 8px;
+           font-size: 12px;
+           margin: auto;
+           display: flex;
+           justify-content: center;
+        }
+    }
+
+  @media(min-width:768px) and (max-width:1023px){
+      .about-desc p{
+          font-size: 14px !important;
+      }
+      .about-image img{
+          min-height: 210px !important;
+          width: 100% !important;
+      }
+      .about-text h2{
+          font-size: 25px;
+      }
+      .about-btn{
+          width: 130px;
+          font-size: 14px;
+          font-weight: 500;
+      }
+    }

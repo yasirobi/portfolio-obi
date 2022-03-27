@@ -1,0 +1,79 @@
+.footer {
+    background: #0e0f14;
+    margin-top: 3rem;
+}
+.footer .links ul {
+    list-style-type: none;
+}
+.footer .links li a {
+    color: white;
+    transition: color 0.2s;
+    opacity: .85;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.footer .links li a:hover {
+    text-decoration: none;
+    color: #24b273;
+    transition: all ease-out .5s;
+}
+.footer .about-company i {
+    font-size: 25px;
+}
+.footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+}
+.footer .about-company a:hover {
+    color: #24b273;
+}
+.footer .location i {
+    font-size: 18px;
+}
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.links h4, .location h4{
+    color: #24b273;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about-company h2{
+    color: #24b273;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about-company p, .location p{
+    color: #ffffff;
+    opacity: .85;
+    text-transform: capitalize;
+}
+
+.copyright p{
+color: #24b273;
+text-align: center !important;
+ padding-top: 20px;
+}
+
+@media(min-width:280px) and (max-width:319px){
+    .links h4, .location h4, .about-company h2{
+        font-size: 20px;
+    }
+    .link li a{
+        font-size: 16px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .links h4, .location h4, .about-company h2{
+        font-size: 18px;
+    }
+    .link li a{
+        font-size: 15px;
+    }
+}

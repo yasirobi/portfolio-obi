@@ -1,0 +1,286 @@
+.service-title h1{
+    text-align:center;
+    margin-top: 60px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    opacity: .65;
+    
+  }
+  
+  .underline-1{
+    border-bottom: 4px solid #24b273 ;
+    width: 150px;
+    margin: auto;
+  }
+  .service-title{
+    width: 60%;
+    margin: auto;
+  }
+   .service-title p{
+     color: #fff;
+     opacity: .65;
+     text-align: center;
+     margin-top: 15px;
+   }
+
+
+  
+  
+  .serviceBox{
+    padding: 38px 0 0;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    width: 100%;
+    margin-top: 30px;
+    height: 100% !important;
+  }
+   
+  .serviceBox .service-icon{
+    color: #fff;
+    background: linear-gradient(#24b273 ,#24b273 );
+    font-size: 45px;
+    line-height: 80px;
+    width: 110px;
+    height: 80px;
+    padding: 0 25px;
+    border-radius: 10px 10px 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 2;
+  }
+
+  .serviceBox .service-content{
+    background-color: #212428;
+    padding: 30px 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.30);
+  }
+  
+  .serviceBox .title{
+    color: #24b273;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .serviceBox .description{
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: .85;
+    text-align: left;
+    padding: 12px;
+  }
+  
+ 
+  
+  
+  @media(min-width:320px) and (max-width:480px){
+    body{
+      background-color: yellow !important;
+    }
+    .service-title{
+      width: 80%;
+      margin-top: 0px;
+    
+    }
+    .service-title h1{
+      text-align: center;
+    }
+    
+    .underline-1{
+      
+      width: 90px !important;
+      margin:8px auto !important;
+    }
+    .service-btns{
+      padding: 10px;
+      font-size: 12px;
+      width: 130px;
+      
+    }
+    .serviceBox{
+      width: 100%;
+      margin-top: 30px;
+    }
+    .service-title h1{
+      font-size: 22px;
+    }
+    .underline-1{
+      width: 10%;
+    }
+    .service-title p{
+      margin-top: 20px;
+      font-size: 17px !important;
+      text-align: center !important;
+    }
+    .serviceBox .service-icon{
+      color: #fff;
+      background: linear-gradient(#24b273,#24b273);
+      font-size: 30px;
+      line-height: 70px;
+      width: 90px;
+      height: 70px;
+      padding: 0 20px;
+     
+  }
+  .service-title{
+    width: 80%;
+  }
+  .service-title p{
+    font-size:17px;
+    text-align: justify;
+  }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .service-title{
+      width: 90% !important;
+      margin-top: 0px;
+     
+    }
+    .service-title h1{
+      text-align: center;
+    }
+    
+    .underline-1{
+      
+      width: 90px !important;
+      margin:8px auto !important;
+    }
+    
+    .serviceBox{
+      width: 100%;
+      margin-top: 30px;
+      padding: 21px;
+    }
+    .service-title h1{
+      font-size: 22px;
+    }
+    .underline-1{
+      width: 10%;
+    }
+    .service-title p{
+      margin-top: 20px;
+      font-size: 17px !important;
+      text-align: center !important;
+    }
+    .serviceBox .service-icon{
+      color: #fff;
+      background: linear-gradient(#24b273,#24b273);
+      font-size: 30px;
+      line-height: 70px;
+      width: 90px;
+      height: 70px;
+      padding: 0 20px;
+     
+  }
+  .service-title{
+    width: 80%;
+  }
+  .service-title p{
+    font-size:17px;
+    text-align: justify;
+  }
+  }
+
+
+  /*galaxy fold*/
+  @media(min-width:280px) and (max-width:319px){
+    .service-title h1{
+      font-size: 18px;
+    }
+    .underline-1{
+      width: 30%;
+    }
+    .title{
+      font-size: 14px !important;
+    }
+    .service-title{
+      width: 80%;
+    }
+    .service-title p{
+      font-size: 15px;
+      
+    }
+    .description{
+      font-size: 12px !important;
+    }
+    .serviceBox .service-icon{
+      font-size: 25px;
+      line-height: 60px;
+      width: 80px;
+      height: 60px;
+      padding: 0 15px;
+      margin-top: 8px;
+  }
+  }
+  
+
+  @media(min-width:768px) and (max-width:1023px){
+    .service-title h1{
+      font-size: 30px;
+    }
+    .underline-1{
+      width: 20%;
+    }
+    .serviceBox .title{
+      font-size: 14px !important;
+    }
+    .description{
+      font-size: 13.3px !important;
+     
+      padding: 5px !important;
+      
+      
+    }
+    .serviceBox{
+      padding-bottom: 5px;
+      height: auto !important;
+      /* background-color: #016CB0; */
+    }
+    .serviceBox .service-content{
+     height: 330px;
+     padding: 11px !important;
+    }
+    .title{
+      font-size: 15px !important;
+    }
+    .serviceBox .service-icon{
+      line-height: 70px;
+      width: 100px;
+      height: 70px;
+      font-size: 30px;
+     
+    }
+  
+    .serviceBox .service-content{
+    
+      padding: 20px 20px;
+     
+    }
+  }
+  
+  
+  
+  @media(min-width:1024px) and (max-width:1366px){
+    .service-title h1{
+      font-size: 30px;
+    }
+    .underline-1{
+      width: 20%;
+    }
+    .service-title p{
+      font-size: 17px;
+    }
+  }

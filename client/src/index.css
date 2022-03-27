@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+    background-color: #212428 !important;  
+  font-family: 'Montserrat', sans-serif !important;
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+}
+
+ul{
+  list-style: none !important;
+}
+
+img{
+  max-width: 100% !important;
+}
+.scrollToTop{
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 50%;
+  width: 53px;
+  height: 53px;
+  border: none !important;
+  background-color: #212428 !important;
+  color: #f9004d!important;
+  font-size: 30px;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 319px){
+  body{background-color: red !important;}
+}
+
+/* @media (min-width: 320px) and (max-width: 480px){
+  body{background-color: green !important;}
+} */
+
+@media (min-width: 481px) and (max-width: 767px){
+  body{background-color: blue !important;}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  body{background-color: yellow!important;}
+}
+
+@media (min-width: 1024px) and (max-width: 1366px){
+  body{background-color: rgb(255, 0, 191) !important;}
+}
